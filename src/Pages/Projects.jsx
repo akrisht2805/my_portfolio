@@ -9,9 +9,7 @@ const Projects = () => {
       <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 items-center justify-center  min-h-full'>
         {
           data?.map((items, index) =>
-            <div key={index}>
               <ProjectCard details={items} />
-            </div>
           )
         }
       </div>
