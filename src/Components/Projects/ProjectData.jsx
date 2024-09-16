@@ -1,18 +1,6 @@
 export const data = [
     {
         'id': 2,
-        'projectName': 'Portfolio',
-        'description': [
-            "Developed a responsive web application with a dynamic, user-friendly interface.",
-            "Implemented reusable components and efficient state management for improved performance.",
-            "Designed a consistent, visually appealing UI adaptable to various devices and screen sizes.",
-        ],
-        'techUsed': "React.js, Tailwind",
-        'gitHubLink': "#home",
-        'liveLink': '#home',
-    },
-    {
-        'id': 1,
         'projectName': 'Library Management System',
         'description': [
             "Developed a Library Management Backend Application with CRUD functionality for users and books.",
@@ -22,6 +10,18 @@ export const data = [
         'techUsed': "goLang, sql",
         'gitHubLink': "https://github.com/akrisht2805/A-Library-Application",
         'liveLink': 'https://github.com/akrisht2805/A-Library-Application',
+    },
+    {
+        'id': 1,
+        'projectName': 'Portfolio',
+        'description': [
+            "Developed a responsive web application with a dynamic, user-friendly interface.",
+            "Implemented reusable components and efficient state management for improved performance.",
+            "Designed a consistent, visually appealing UI adaptable to various devices and screen sizes.",
+        ],
+        'techUsed': "React.js, Tailwind",
+        'gitHubLink': "#home",
+        'liveLink': '#home',
     },
     {
         'id': 3,
