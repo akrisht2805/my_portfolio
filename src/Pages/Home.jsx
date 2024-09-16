@@ -23,7 +23,7 @@ const Home = () => {
     return (
         <>
             <Icon />
-            <div id='home' className='pt-16 min-h-screen sm:min-h-[60vh] flex flex-col items-center justify-center gap-0'>
+            <div id='home' className='pt-16 min-h-[60vh] sm:min-h-screen  flex flex-col items-center justify-center gap-0'>
                 < h1 className=' text-white font-bold text-5xl md:text-8xl' >
                     Hi, I'm <span className='text-blue-400'>{displayedText}</span>
                 </ h1>
